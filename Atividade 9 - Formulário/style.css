@@ -1,0 +1,68 @@
+body {
+
+    background-color:rgb(139, 169, 207);
+    margin: 0;
+    
+
+}
+
+header {
+
+    text-align: center;
+
+}
+
+.centro {
+
+    margin-top: 10%;
+    text-align: center;
+
+}
+
+.centro-idade {
+
+    margin-top: 10%;
+    text-align: center;
+    margin-left: 1px;
+}
+
+.centro-texto {
+
+    margin-left: 5%;
+    margin-top: 2%;
+    border: 1px solid black;
+    text-align: center;
+    background-color:rgb(159, 201, 255) ;
+    width: 400px;
+}
+
+form{
+
+    margin: 0 auto;
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color:rgb(159, 201, 255) ;
+
+}
+
+form div + div {
+    margin-top: 10px;
+}
+
+label {
+    width: 90px;
+    text-align: right;
+}
+
+button {
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.sec {
+
+    display: flex;
+    margin-left: 24%;
+
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="arquivo.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title> Forms </title>
+</head>
+<body>
+    <header>
+        <hr>
+        <h1> Atividade 9 - Formulário no HTML </h1>
+        <h2> Gustavo Floriano - DS24/1 M2 </h2>
+        <hr>
+    </header>
+    <form action="arquivo.html" method="post"> <!-- Os formulários são definidos pela tag "<form>". Action é para onde os dados do form serão enviados. method é o jeito que eles serão enviados  -->
+        <div class="centro">
+            <label for="nome"> Nome: </label> <!-- O "for" na label corresponde a "id" do input. Nesse caso, o for="nome" e id="nome". -->
+            <input type="text" id="nome" required/> <!-- A tag "type" define o tipo do campo. Nesse caso "type=text" ou seja, igual a texto-->
+        </div>
+        <div class="centro-idade">
+            <label for="idade"> Idade:  </label>
+            <input type="number" id="idade" required/>
+        </div>
+        <div class="centro">
+            <label for="email"> Email: </label>
+            <input type="text" id="email" required/>
+        </div>
+        <div class="centro">
+            <button> Enviar </button>
+        </div>
+    </form>
+    <section class="sec">
+        <div class="centro-texto">
+            <p>Os formulários são definidos pela tag "form". Action é para onde os dados do form serão enviados. method é o jeito que eles serão enviados</p>
+        </div>
+        <div class="centro-texto">
+            <p>O "for" na label corresponde a "id" do input. Nesse caso, o for="nome" e id="nome".</p>
+        </div>
+    </section>
+    <section class="sec">
+        <div class="centro-texto">
+            <p>A tag "type" define o tipo do campo. Nesse caso "type=text" ou seja, igual a texto</p>
+            <p> Alguns dos tipos de input, são: button, checkbox, color, date, datetime, email, file, text, number e url</p>
+        </div>
+        <div class="centro-texto">
+            <p>POST – é usado quando o cliente deseja enviar dados para processamento ao servidor, como os dados de um formulário, por exemplo.</p>
+        </div>
+    </section>
+</body>
+</html>
